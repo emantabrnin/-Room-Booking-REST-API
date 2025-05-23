@@ -136,3 +136,13 @@ json
 
 Design Patterns Used
 Service Layer Pattern → Keeps business logic separate.  Repository Pattern → Manages database operations.  Global Exception Handling → Ensures clean error responses.
+
+Swagger:
+we can run our application and find the OpenAPI descriptions at /v3/api-docs, which is the default path:
+http://localhost:8080/v3/api-docs
+
+ Integration With Swagger UI
+Besides generating the OpenAPI 3 specification, we can integrate springdoc-openapi with Swagger UI to interact with our API specification and exercise the endpoints.
+
+The springdoc-openapi dependency already includes Swagger UI
+http://localhost:8080/swagger-ui/index.html
