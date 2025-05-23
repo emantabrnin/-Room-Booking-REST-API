@@ -15,10 +15,6 @@ public class BookingController {
     @Autowired
     private  BookingService bookingService;
     
-    // @Autowired
-    // public BookingController(BookingService bookingService) {
-    //     this.bookingService = bookingService;
-    // }
 
     @PostMapping
     public ResponseEntity<Booking> createBooking(@RequestBody Booking booking) {

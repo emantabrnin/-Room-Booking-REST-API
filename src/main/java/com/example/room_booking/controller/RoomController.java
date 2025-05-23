@@ -15,10 +15,6 @@ public class RoomController {
     @Autowired
     private  RoomService roomService;
 
-    // @Autowired
-    // public RoomController(RoomService roomService) {
-    //     this.roomService = roomService;
-    // }
 
     @GetMapping
     public ResponseEntity<List<Room>> listRooms(@RequestParam(required = false) Boolean available) {
