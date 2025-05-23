@@ -11,7 +11,7 @@ git clone https://github.com/emantabrnin/-Room-Booking-REST-API
 cd -Room-Booking-REST-API
 
 Access H2 Database Console
-URL: http://localhost:8082/h2-console
+URL: http://localhost:8080/h2-console
 
 JDBC URL: jdbc:h2:mem:testdb
 
