@@ -100,7 +100,7 @@ curl -X POST "http://localhost:8080/bookings" -H "Content-Type: application/json
  Description: Cancels a booking and updates room availability.
 
  Example Curl Request
-sh
+
 curl -X PUT "http://localhost:8080/bookings/1/cancel"
  Response
 json
