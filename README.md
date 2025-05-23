@@ -72,10 +72,10 @@ Create a Booking
 
  Example Curl Request
 curl -X POST "http://localhost:8080/bookings" -H "Content-Type: application/json" -d '{
-    "customerName": "John Doe",
+    "customerName": "Eman",
     "checkIn": "2025-06-01",
     "checkOut": "2025-06-05",
-    "status": "PENDING",
+    "status": "CONFIRMED",
     "room": {
         "id": 1
     }
@@ -83,7 +83,7 @@ curl -X POST "http://localhost:8080/bookings" -H "Content-Type: application/json
  Response
 {
     "id": 1,
-    "customerName": "John Doe",
+    "customerName": "Eman",
     "checkIn": "2025-06-01",
     "checkOut": "2025-06-05",
     "status": "CONFIRMED",
@@ -121,7 +121,7 @@ curl -X GET "http://localhost:8080/bookings/1"
 json
 {
     "id": 1,
-    "customerName": "John Doe",
+    "customerName": "Eman",
     "checkIn": "2025-06-01",
     "checkOut": "2025-06-05",
     "status": "CONFIRMED",
